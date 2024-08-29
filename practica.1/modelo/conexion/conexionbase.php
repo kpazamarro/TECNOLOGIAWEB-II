@@ -8,7 +8,7 @@ if ($method == "OPTIONS") {
     die();
 }
 
-class ConexionBase {
+class conexionBase {
     // Definición de atributos
     private $host;
     private $user;
@@ -18,7 +18,7 @@ class ConexionBase {
 
     public function __construct() {
         // Constructor
-        require_once "configDb.php";
+        require_once "confdb.php";
         $this->host = HOST;
         $this->user = USER;
         $this->password = PASSWORD;
