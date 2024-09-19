@@ -1,0 +1,107 @@
+registrarusuario
+﻿
+
+POST
+registrarperosna
+http://localhost/usuario_rol/controlador/ctrlpesona.php
+﻿
+
+Body
+raw (json)
+json
+{
+  "operacion": "RegistrarPersona",
+  "nombre": "Pablo",
+  "apellido":"Paz",
+  "email":"pazp22596@gmail.com",
+  "fecha_nacimiento": "19-06-1996",
+  "telefono": "71465547"
+}
+POST
+rol
+http://localhost/usuario_rol/controlador/ctrlrol.php
+﻿
+
+Body
+raw (json)
+json
+{
+  "operacion": "RegistrarRol",
+  "nombre": "administrador",
+  "descripcion":"administrador de la empresa"
+}
+POST
+usuario
+http://localhost/usuario_rol/controlador/ctrlusuario.php
+﻿
+
+Body
+raw (json)
+json
+{
+  "operacion": "RegistrarUsuario",
+  "username": "pedro",
+  "email": "pedroalejo@example.com",
+  "estado":"activo",
+  "password": "920158",
+  "rol_id": 3,
+  "persona_id": 4
+}
+POST
+login
+http://localhost/usuario_rol/controlador/ctrlusuario.php
+﻿
+
+Body
+raw (json)
+json
+{
+  "operacion": "Login",
+  "username": "pedro",
+  "password": "920158"
+}
+GET
+listarpersonas
+http://localhost/usuario_rol/controlador/ctrlpesona.php
+﻿
+
+Body
+raw (json)
+json
+{
+    "operacion":"ListarPersonas"
+}
+GET
+listarusuario
+http://localhost/usuario_rol/controlador/ctrlusuario.php
+﻿
+
+Body
+raw (json)
+json
+{
+    "operacion":"ListarUsuarios"
+}
+GET
+listarrol
+http://localhost/usuario_rol/controlador/ctrlrol.php
+﻿
+
+Body
+raw (json)
+json
+{
+    "operacion":"listarrol"
+}
+POST
+saliir
+http://localhost/usuario_rol/controlador/ctrlusuario.php
+﻿
+
+Body
+raw (json)
+json
+{
+  "operacion": "Logout",
+  "username": "pedro"
+}
