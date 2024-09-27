@@ -3,7 +3,7 @@ registrarusuario
 
 POST
 registrarperosna
-http://localhost/usuario_rol/controlador/ctrlpesona.php
+http://localhost/Exxamen/controlador/ctrlpesona.php
 ﻿
 
 Body
@@ -19,7 +19,7 @@ json
 }
 POST
 rol
-http://localhost/usuario_rol/controlador/ctrlrol.php
+http://localhost/Exxamen/controlador/ctrlrol.php
 ﻿
 
 Body
@@ -32,7 +32,7 @@ json
 }
 POST
 usuario
-http://localhost/usuario_rol/controlador/ctrlusuario.php
+http://localhost/Exxamen/controlador/ctrlusuario.php
 ﻿
 
 Body
@@ -49,7 +49,7 @@ json
 }
 POST
 login
-http://localhost/usuario_rol/controlador/ctrlusuario.php
+http://localhost/Exxamen/controlador/ctrlusuario.php
 ﻿
 
 Body
@@ -62,7 +62,7 @@ json
 }
 GET
 listarpersonas
-http://localhost/usuario_rol/controlador/ctrlpesona.php
+http://localhost/Exxamen/controlador/ctrlpesona.php
 ﻿
 
 Body
@@ -73,7 +73,7 @@ json
 }
 GET
 listarusuario
-http://localhost/usuario_rol/controlador/ctrlusuario.php
+http://localhost/Exxamen/controlador/ctrlusuario.php
 ﻿
 
 Body
@@ -84,7 +84,7 @@ json
 }
 GET
 listarrol
-http://localhost/usuario_rol/controlador/ctrlrol.php
+http://localhost/Exxamen/controlador/ctrlrol.php
 ﻿
 
 Body
@@ -95,7 +95,7 @@ json
 }
 POST
 saliir
-http://localhost/usuario_rol/controlador/ctrlusuario.php
+http://localhost/Exxamen/controlador/ctrlusuario.php
 ﻿
 
 Body
